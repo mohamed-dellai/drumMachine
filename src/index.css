@@ -1,0 +1,65 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#root{
+  margin: 0;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  background-color: #C2A875;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  background-color: #E9EFFF;
+  width: auto;
+  padding: 30px;
+}
+.keys{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.settings{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.audio{
+  position: absolute;
+  opacity: 0;
+}
+button{
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+.submit{
+  width: 60px;
+  height: 60px;
+  font-size: 12px;
+}
+.volumebtn{
+  margin-top: 2px;
+}
+.currenttext{
+  margin-bottom: -2px;
+}
